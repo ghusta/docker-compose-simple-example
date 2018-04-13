@@ -6,7 +6,7 @@
 
 Simple example taken from [Get started with Docker Compose](https://docs.docker.com/compose/gettingstarted/).
 
-It will build a local image based on _python:3.4-alpine_, and use another one which is _redis:alpine_.
+It will build a local image based on _python:3.6-alpine_, and use another one which is _redis:alpine_.
 
 ## Usage
 
