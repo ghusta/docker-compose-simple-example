@@ -14,5 +14,6 @@ script:
   - docker-compose up -d
   - docker-compose images
   - docker-compose ps
-  - sleep 1s
+  - curl "http://localhost:5000/" -v
+  - curl "http://localhost:5000/" -v
   - docker-compose down
