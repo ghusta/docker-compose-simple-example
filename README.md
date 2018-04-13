@@ -10,7 +10,7 @@ It will build a local image based on _python:3.4-alpine_, and use another one wh
 
 ### Build
 
-It will build local images only. The _redis_ image don't need to be built, it will be pulled from [Docker Hub](https://hub.docker.com/) (public Docker registry).
+It will build local images only. The _redis_ image don't need to be built, it will be pulled from [Docker Hub](https://hub.docker.com/) (Docker public registry).
 
 > docker-compose build
 
@@ -23,6 +23,12 @@ Indeed, the command `pip install -r requirements.txt` needs to fetch external re
 It will run containers locally.
 
 > docker-compose up -d
+
+### Stop
+
+It will stop the containers.
+
+> docker-compose down
 
 ### Update images
 
