@@ -1,5 +1,7 @@
 # Simple example for docker-compose
 
+[![Build Status](https://travis-ci.org/ghusta/docker-compose-simple-example.svg?branch=master)](https://travis-ci.org/ghusta/docker-compose-simple-example)
+
 ## Overview
 
 Simple example taken from [Get started with Docker Compose](https://docs.docker.com/compose/gettingstarted/).
