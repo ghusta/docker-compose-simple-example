@@ -1,4 +1,4 @@
-FROM python:3.4-alpine
+FROM python:3.6-alpine
 ADD ./app.py /code/
 ADD ./requirements.txt /code/
 WORKDIR /code
