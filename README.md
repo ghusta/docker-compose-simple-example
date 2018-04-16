@@ -17,7 +17,7 @@ It will build local images only. The _redis_ image don't need to be built, it wi
 > docker-compose build
 
 Tip :  
-If behind a proxy, add _build-arg_ like : `docker-compose build --build-arg=ip:port`.  
+If behind a proxy, add _build-arg_ like : `docker-compose build --build-arg https_proxy=ip:port`.  
 Indeed, the command `pip install -r requirements.txt` needs to fetch external resources for Python.
 
 ### Run
